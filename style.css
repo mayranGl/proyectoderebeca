@@ -1,0 +1,62 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+    font-size: 20px;
+    font-family: 'Lato';
+}
+.Profile{
+    border-radius: 50%;
+    width: 30%;
+}
+#bienvenida{
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#D8C5A4 0%,#A9CDB0 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato';
+}
+h1{
+    font-size: 40px;
+    font-weight: 300px;
+}
+#nombre{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+    font-weight: 300px;
+}
+#bio{
+    padding: 50px;
+}
+.line{
+    height: 6px;
+    background-color: darkkhaki;
+    width: 70px;
+    margin: 8px auto;
+}
+.parallax-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.menu{
+    position: fixed;
+    top: 0px;
+    margin-top: 0px;
+    z-index: 10px;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #D8C5A4 0%, #A9CDB0 100%);
+    color: #000000;
+}
+.enlace{
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 20px;
+}
+#videos{
+    text-align: center;
+}
